@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    <title>HTZ Deals</title>
+</head>
+<body>
+    
+    <div class="head">
+        <div class="logo">
+            <figure class="logopag">
+                <img src="static/img/dioscuantosvan.png" height="55" width="110%" alt="logopag">
+            </figure>
+        </div>
+    
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Ofertas actuales</a>
+            <a href="#">Especificaciones</a>
+            <a href="#">Contacto</a>
+        </nav>
+
+    </div>
+
+    <header class="content header">
+        <h2 class="title">HTZ Deals</h2>
+        <p>Pagina que encuentra el mejor precio para tus videojuegos favoritos</p>
+        <div class="btn-home">
+            <a href="#" class="btn">Todos los juegos</a>
+            <a href="#" class="btn">Nintendo</a>
+            <a href="#" class="btn">Playstation</a>
+        </div>
+    </header>
+
+    <section class="precios">
+        <h2 class="title">Ofertas actuales</h2>
+
+
+    </section>
+    <script>
+    
+        function leerarchivo(file)
+        {
+            var archivo = new XMLHttpRequest();
+            archivo.open("GET", file, false);
+            archivo.onreadystatechange = function ()
+            {
+                if(archivo.readyState === 4)
+                {
+                    if(archivo.status === 200 || archivo.status == 0)
+                    {
+                        var texto = archivo.responseText;
+                        alert(texto);
+                    }
+                }
+            }
+            archivo.send(null);
+        
+        }
+        
+        
+        leerarchivo("templates\GG.txt");
+        
+        </script>
+
+    <section class="Productos">
+        <div class="page-container">
+            <h3>Mario kart 8 deluxe</h3>
+            <img src="https://m.media-amazon.com/images/I/81mqZx5X1XL._SY500_.jpg" alt="">
+            <h3>Metascore 92</h3>
+            <h3>$48.99</h3>
+            <button>Comprar</button>
+        </div>
+
+        <div class="page-container">
+            <h3>Mario kart 8 deluxe</h3>
+            <img src="https://m.media-amazon.com/images/I/81mqZx5X1XL._SY500_.jpg" alt="">
+            <h3>Metascore 92</h3>
+            <h3>$48.99</h3>
+            <button>Comprar</button>
+        </div>
+
+        <div class="page-container">
+            <h3>Mario kart 8 deluxe</h3>
+            <img src="https://m.media-amazon.com/images/I/81mqZx5X1XL._SY500_.jpg" alt="">
+            <h3>Metascore 92</h3>
+            <h3>$48.99</h3>
+            <button>Comprar</button>
+        </div>
+
+        <div class="page-container">
+            <h3>Mario kart 8 deluxe</h3>
+            <img src="https://m.media-amazon.com/images/I/81mqZx5X1XL._SY500_.jpg" alt="">
+            <h3>Metascore 92</h3>
+            <h3>$48.99</h3>
+            <button>Comprar</button>
+        </div>
+
+        <div class="page-container">
+            <h3>Mario kart 8 deluxe</h3>
+            <img src="https://m.media-amazon.com/images/I/81mqZx5X1XL._SY500_.jpg" alt="">
+            <h3>Metascore 92</h3>
+            <h3>$48.99</h3>
+            <button>Comprar</button>
+        </div>
+
+    </section>
+
+    <section class="content sau">
+        <h2 class="title">Especificaciones</h2>
+        <p>Proyecto multicore pagina web comparadora de precios de videojuegos</p>
+        <p>Tecnologias usadas para llevar a cabo el proyecto</p>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </div>
+
+            <div class="box">
+                <i class="fab fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+
+            <div class="box">
+                <i class="fab fa-css3"></i>
+                <p>CSS</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="content about">
+        <h2 class="title">Contacto</h2>
+        <p>Luis David Barrantes <br>correo: lui81@estudiantec.cr <br><br>Mario Adrian sanchez <br>correo: mar_sanchez@estudiantec.cr</p>
+        <figure class="logo">
+            <img src="static/img/tec.png" height="100" width="100%" alt="logo_tec">
+        </figure>
+    </section>
+    
+</body>
+</html>
