@@ -13,5 +13,4 @@ Finally for the Nintendo One, because of the TEC server we couldn't scrap the or
 
 Then we use HTML to create a pseudo website that can show all the game's info, in that page we used a Compucell-type website
 
-
-recent:///a97176937ae78d1ada6cb21c634839c1
+![photo_5060210145094642226_y](https://user-images.githubusercontent.com/114549612/195651403-efa61a1d-e864-4ddd-ad69-2e4af2a4bb15.jpg)
