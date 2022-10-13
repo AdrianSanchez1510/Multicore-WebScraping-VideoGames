@@ -12,3 +12,4 @@ For the Amazon website we need to create a dictionary of URL to use for every st
 Finally for the Nintendo One, because of the TEC server we couldn't scrap the original page, howewer, we can use Eshop prices, a website which main pur
 
 Then we use HTML to create a pseudo website that can show all the game's info, in that page we used a Compucell-type website
+LIMy Image1(/Downloads/photo_506456778025845_y.jpg
