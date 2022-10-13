@@ -12,7 +12,7 @@ For the Amazon website we need to create a dictionary of URL to use for every st
 
 Finally for the Nintendo One, because of the TEC server we couldn't scrap the original page, howewer, we can use Eshop prices, a website which main purpose is to search for all the prices all arround the eshop of the world
 
-# The HTML PAge
+# The HTML Page
 We use the language HTML to create a pseudo website that can show all the game's info, in that page we used a Compucell-type website
 
 ![photo_5060210145094642226_y](https://user-images.githubusercontent.com/114549612/195651403-efa61a1d-e864-4ddd-ad69-2e4af2a4bb15.jpg)
@@ -24,3 +24,8 @@ In the page we add the following data:
 - The Amazon Price
 - The Nintendo Eshop Prices
 - The Metacritic Score
+
+
+In the end it's going to look like this
+
+![photo_5064567780258458191_y](https://user-images.githubusercontent.com/114549612/195658855-73056636-0d43-4a0f-8eb1-5c87b9d090b9.jpg)
